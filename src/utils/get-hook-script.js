@@ -95,7 +95,7 @@ module.exports = function getHookScript(hookName, relativePath, npmScriptName) {
       export GIT_PARAMS="$*"
 
       # Export git command
-      export GIT_COMMAND=$(ps -ocommand= -p $PPID)
+      export GIT_COMMAND="$(ps -ocommand= -p $PPID)"
 
       # Run npm script
       echo "husky > npm run -s ${npmScriptName} (node \`node -v\`)"
