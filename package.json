@@ -1,6 +1,6 @@
 {
   "name": "husky-interactive",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Prevents bad commit or push (git hooks, pre-commit/precommit, pre-push/prepush, post-merge/postmerge and all that stuff...)",
   "engines": {
     "node": ">=4"
